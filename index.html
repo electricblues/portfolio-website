@@ -19,21 +19,107 @@
 
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css" />
+    <script async defer src="script.js"></script>
   </head>
   <body>
     <div class="main-container">
-      <!-- blue box -->
-      <div id="introduction">
+      <!-- nav bar -->
+      <nav id="navigation">
+        <div id="social">
+          <div>
+            <a href="https://github.com/electricblues/"
+              ><img src="./assets/github-svgrepo-com.svg?" />
+            </a>
+          </div>
+        </div>
+        <div id="menu">
+          <!-- make into a tags -->
+
+          <a href="#navigation">top</a>
+          <a href="#about">about</a>
+          <a href="#stuff-done">projects</a>
+        </div>
+      </nav>
+      <!-- blue box with me-->
+      <div id="introduction" class="stuff-box">
         <img
+          id="sticker"
           src="./assets/girl.png"
           alt="Girl in a lavender hoodie"
-          width="100"
-          height="100"
+          width="120"
+          height="120"
         />
         <h2>Hi, I'm Emanuela</h2>
+        <p>
+          ...a (former) nurse looking to get into web development & make some
+          friends along the way!
+        </p>
       </div>
-      <!-- yellow box -->
-      <!-- mystery box -->
+
+      <!-- about orange box -->
+      <div id="about" class="stuff-box">
+        <img
+          src="./assets/nurse-clipboard.png"
+          alt="laptop"
+          width="90"
+          height="90"
+        />
+        <h2>here's a bit about myself 🇷🇴</h2>
+        <p>
+          After arriving in the UK and realising that nursing was not for me, I
+          decided to look for a career with which I resonate more.
+        </p>
+        <p>
+          I've done some online courses on codecademy covering some software
+          development fundamentals like web (HTML, CSS, JS, React, PHP), as well
+          as some Python, C# and Java
+        </p>
+
+        <p>
+          I found myself spending too much time watching tutorials and doing
+          online courses, without progressing much, and the lack of self-imposed
+          structure hasn't helped me retain & apply the knowledge I learned...
+        </p>
+        <p>
+          <i
+            >I see this bootcamp as my next step to level up my coding; I wish
+            to develop cool projects together with other people, receive
+            valuable feedback and work hard towards getting real job
+            opportunities in tech!</i
+          >
+        </p>
+      </div>
+      <!-- projects darkish pink box -->
+      <div id="stuff-done" class="stuff-box">
+        <img src="./assets/laptop.png" alt="laptop" width="100" height="100" />
+        <h2>Some projects I've done</h2>
+        <div>
+          >
+          <a href="https://github.com/electricblues/portfolio-website"
+            >this website's git repository</a
+          >
+        </div>
+        <br />
+        <div>
+          >
+          <a href="https://electricblues.github.io/MemoDrums/"
+            >small memory memory game featuring drum sounds</a
+          >
+          |
+          <a href="https://github.com/electricblues/MemoDrums"
+            >(repository link)</a
+          >
+        </div>
+        <br />
+        <div>
+          >
+          <a href="https://github.com/electricblues/jammming"
+            >spotify playlist manager (codecademy)</a
+          >
+        </div>
+      </div>
+
+      <div class="spacer"></div>
     </div>
   </body>
 </html>
